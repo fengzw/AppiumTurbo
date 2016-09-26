@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="appiumPRO" parallel="false" preserve-order="true">
+
+	<parameter name="port" value="4723" />
+	<parameter name="udid" value="PBV0216615001449" />
+	<parameter name="appPackage" value="dji.pilot" />
+	<parameter name="appActivity" value="dji.pilot.main.activity.DJIAoaActivity" />
+
+	<parameter name="userName" value="charlie.chen@dji.com" />
+	<parameter name="pwd" value="123456" />
+
+	<test name="LoginTest" preserve-order="true">
+		<classes>
+			<class name="com.dji.cases.LoginTest" >
+				<methods>
+					<include name="loginByButton" />
+					<include name="loginByStore" />
+					<exclude name="loginByAcademy" />
+					<exclude name="loginByFly" />
+
+					<exclude name="loginByAttention" />
+					<exclude name="loginByPraise" />
+					<exclude name="loginByCollect" />
+					<exclude name="loginByComment" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+</suite>

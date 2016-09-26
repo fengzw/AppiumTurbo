@@ -1,0 +1,29 @@
+2016-09-07 16:25:47.008 INFO  com.dji.utils.Log 18 info - Test Start
+2016-09-07 16:25:53.783 INFO  com.dji.utils.Log 18 info - pageName is:menuPage
+2016-09-07 16:25:58.561 INFO  com.dji.utils.Log 18 info - click: 我
+2016-09-07 16:25:58.567 INFO  com.dji.utils.Log 18 info - pageName is:minePage
+2016-09-07 16:26:00.371 INFO  com.dji.utils.Log 18 info - click: 设置
+2016-09-07 16:26:00.376 INFO  com.dji.utils.Log 18 info - pageName is:settingPage
+2016-09-07 16:26:01.196 INFO  com.dji.utils.Log 18 info - click: 退出DJI账号
+2016-09-07 16:26:02.420 INFO  com.dji.utils.Log 18 info - click: 确定
+2016-09-07 16:26:02.425 INFO  com.dji.utils.Log 18 info - pageName is:minePageNo
+2016-09-07 16:26:03.001 INFO  com.dji.utils.Log 18 info - click: 登录
+2016-09-07 16:26:03.005 INFO  com.dji.utils.Log 18 info - pageName is:loginPage
+2016-09-07 16:26:08.866 INFO  com.dji.utils.Log 18 info - type value is:  charlie.chen@dji.com
+2016-09-07 16:26:14.460 INFO  com.dji.utils.Log 18 info - type value is:  123456
+2016-09-07 16:26:15.684 INFO  com.dji.utils.Log 18 info - click: 登录
+2016-09-07 16:26:15.695 INFO  com.dji.utils.Log 18 info - pageName is:minePage
+2016-09-07 16:26:17.539 INFO  com.dji.utils.Log 18 info - Test Success
+2016-09-07 16:26:17.548 INFO  com.dji.utils.Log 18 info - pageName is:minePage
+2016-09-07 16:26:18.820 INFO  com.dji.utils.Log 18 info - click: 设置
+2016-09-07 16:26:18.824 INFO  com.dji.utils.Log 18 info - pageName is:settingPage
+2016-09-07 16:26:19.645 INFO  com.dji.utils.Log 18 info - click: 退出DJI账号
+2016-09-07 16:26:20.757 INFO  com.dji.utils.Log 18 info - click: 确定
+2016-09-07 16:26:20.759 INFO  com.dji.utils.Log 18 info - pageName is:minePageNo
+2016-09-07 16:26:21.363 INFO  com.dji.utils.Log 18 info - click: DJI商城
+2016-09-07 16:26:21.367 INFO  com.dji.utils.Log 18 info - pageName is:loginPage
+2016-09-07 16:26:27.393 INFO  com.dji.utils.Log 18 info - type value is:  charlie.chen@dji.com
+2016-09-07 16:26:32.859 INFO  com.dji.utils.Log 18 info - type value is:  123456
+2016-09-07 16:26:34.130 INFO  com.dji.utils.Log 18 info - click: 登录
+2016-09-07 16:26:34.138 INFO  com.dji.utils.Log 18 info - Test Success
+2016-09-07 16:26:34.141 INFO  com.dji.utils.Log 18 info - Test Finish

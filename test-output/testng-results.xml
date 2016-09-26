@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="appiumPRO" duration-ms="47137" started-at="2016-09-07T08:25:47Z" finished-at="2016-09-07T08:26:34Z">
+    <groups>
+    </groups>
+    <test name="LoginTest" duration-ms="47137" started-at="2016-09-07T08:25:47Z" finished-at="2016-09-07T08:26:34Z">
+      <class name="com.dji.cases.LoginTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.dji.cases.LoginTest@3108bc]" name="beforeTest" is-config="true" duration-ms="6" started-at="2016-09-07T16:25:47Z" finished-at="2016-09-07T16:25:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.dji.cases.LoginTest@3108bc]" name="beforeClass" is-config="true" duration-ms="6703" started-at="2016-09-07T16:25:47Z" finished-at="2016-09-07T16:25:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.dji.cases.LoginTest@3108bc]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2016-09-07T16:25:53Z" finished-at="2016-09-07T16:25:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="loginByButton(java.lang.String, java.lang.String)[pri:0, instance:com.dji.cases.LoginTest@3108bc]" name="loginByButton" duration-ms="23806" started-at="2016-09-07T16:25:53Z" description="通过登录按钮登录" finished-at="2016-09-07T16:26:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[charlie.chen@dji.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginByButton -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.dji.cases.LoginTest@3108bc]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-09-07T16:26:17Z" finished-at="2016-09-07T16:26:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="loginByStore(java.lang.String, java.lang.String)[pri:0, instance:com.dji.cases.LoginTest@3108bc]" name="loginByStore" duration-ms="16595" started-at="2016-09-07T16:26:17Z" description="通过DJI Store登录" finished-at="2016-09-07T16:26:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[charlie.chen@dji.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginByStore -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.dji.cases.LoginTest@3108bc]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-09-07T16:26:17Z" finished-at="2016-09-07T16:26:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.dji.cases.LoginTest@3108bc]" name="afterClass" is-config="true" duration-ms="1" started-at="2016-09-07T16:26:34Z" finished-at="2016-09-07T16:26:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.dji.cases.LoginTest@3108bc]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-09-07T16:26:34Z" finished-at="2016-09-07T16:26:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.dji.cases.LoginTest@3108bc]" name="afterTest" is-config="true" duration-ms="0" started-at="2016-09-07T16:26:34Z" finished-at="2016-09-07T16:26:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.dji.cases.LoginTest -->
+    </test> <!-- LoginTest -->
+  </suite> <!-- appiumPRO -->
+</testng-results>
