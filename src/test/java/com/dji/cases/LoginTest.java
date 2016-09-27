@@ -35,7 +35,7 @@ public class LoginTest {
 		// 断言验证用户名是否正确
 		//Assert.assertEquals(new BasePage(ad, "minePage").findElement("用户名").getText(), "charlie.chen");   //testNG自带的断言机制
 		//采用AssertJ断言机制
-		assertThat(new BasePage(ad, "minePage").findElement("用户名").getText()).isEqualTo("CharlieChen");
+		assertThat(new BasePage(ad, "minePage").findElement("用户名").getText()).isEqualTo("Charlie.Chen");
 	}
 
 	@Parameters({ "userName", "pwd" })

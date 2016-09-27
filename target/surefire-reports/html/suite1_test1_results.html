@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
+<head>
+  <title>Test Results Report - LoginTest</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link href="reportng.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="reportng.js"></script>
+</head>
+<body>
+<h1>LoginTest</h1>
+<p>
+  Test duration: 51.328s
+</p>
+
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header failed">Failed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">com.dji.cases.LoginTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  <span class="description" title="通过登录按钮登录">loginByButton</span>
+      </td>
+  <td class="duration">
+    23.691s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"charlie.chen@dji.com", "123456"</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>org.junit.ComparisonFailure: expected:&lt;&quot;Charlie[.]Chen&quot;&gt; but was:&lt;&quot;Charlie[]Chen&quot;&gt;</b></a><br />
+    <div class="stackTrace" id="exception-0">
+              sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
+              sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br />
+              com.dji.cases.LoginTest.loginByButton(LoginTest.java:38)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:497)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:639)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:773)<br />
+              org.testng.TestRunner.run(TestRunner.java:623)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:357)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:259)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1110)<br />
+              org.testng.TestNG.run(TestNG.java:1018)<br />
+              org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)<br />
+              org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)<br />
+              org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)<br />
+              org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)<br />
+              org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)<br />
+              org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)<br />
+                </div>
+      </td>
+</tr>
+      </table>
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header passed">Passed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">com.dji.cases.LoginTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  <span class="description" title="通过DJI Store登录">loginByStore</span>
+      </td>
+  <td class="duration">
+    16.346s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"charlie.chen@dji.com", "123456"</span><br />
+    
+        
+
+      </td>
+</tr>
+      </table>
+  
+</body>
+</html>

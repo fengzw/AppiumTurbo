@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 53.85 sec <<< FAILURE! - in TestSuite
+loginByButton(com.dji.cases.LoginTest)  Time elapsed: 23.725 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<"Charlie[.]Chen"> but was:<"Charlie[]Chen">
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at com.dji.cases.LoginTest.loginByButton(LoginTest.java:38)
+
