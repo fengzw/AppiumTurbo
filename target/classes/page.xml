@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<map>
+	<!--locator of page map info -->
+	
+	<page pageName="menuPage">
+		<!--Locator lists -->
+		<locator type="xpth" timeOut="3" value="//android.widget.TextView[contains(@text,'设备')]">设备</locator>
+		<locator type="xpth" timeOut="3" value="//android.widget.TextView[contains(@text,'编辑器')]">编辑器</locator>
+		<locator type="xpth" timeOut="3" value="//android.widget.TextView[contains(@text,'天空之城')]">天空之城</locator>
+		<locator type="xpth" timeOut="3" value="//android.widget.TextView[contains(@text,'我')]">我</locator>
+	</page>
+
+		
+	<page pageName="minePageNo">
+		<!--Locator lists -->
+		<locator type="id" timeOut="3" value="dji.pilot:id/login_button">登录</locator>
+		<locator type="id" timeOut="3" value="dji.pilot:id/register_button">注册</locator>
+		<locator type="id" timeOut="5" value="dji.pilot:id/v2_mine_store">DJI商城</locator>
+		<locator type="id" timeOut="5" value="dji.pilot:id/v2_mine_academy">DJI论坛</locator>
+	</page>
+
+	
+	<page pageName="minePage">
+		<!--Locator lists -->
+		<locator type="id" timeOut="3" value="dji.pilot:id/icon_user">用户图像</locator>
+		<locator type="id" timeOut="3" value="dji.pilot:id/mine_user_name">用户名</locator>
+		<locator type="id" timeOut="3" value="dji.pilot:id/v2_mine_store">DJI商城</locator>
+		<locator type="id" timeOut="3" value="dji.pilot:id/v2_mine_academy">DJI论坛</locator>
+		<locator type="xpth" timeOut="3" value="//android.widget.TextView[contains(@text,'礼品卡')]">礼品卡</locator>
+		<locator type="xpth" timeOut="3" value="//android.widget.TextView[contains(@text,'上传队列')]">上传列表</locator>
+		<locator type="xpth" timeOut="3" value="//android.widget.TextView[contains(@text,'消息')]">消息</locator>
+		<locator type="xpth" timeOut="3" value="//android.widget.TextView[contains(@text,'我的收藏')]">我的收藏</locator>
+		<locator type="xpth" timeOut="3" value="//android.widget.TextView[contains(@text,'更多')]">更多</locator>
+		<locator type="xpth" timeOut="3" value="//android.widget.TextView[contains(@text,'设置')]">设置</locator>						
+	</page>
+
+		
+	<page pageName="loginPage">
+		<!--Locator lists -->
+		<locator type="id" timeOut="3" value="dji.pilot:id/edt_email">登录输入账号框</locator>
+		<locator type="id" timeOut="3" value="dji.pilot:id/edt_password">登录输入密码框</locator>
+		<locator type="id" timeOut="3" value="dji.pilot:id/btn_sign_ok">登录</locator>
+	</page>
+
+		
+	<page pageName="settingPage">
+	    <!--Locator lists -->
+		<locator type="id" timeOut="3" value="dji.pilot:id/mine_settings_back_button">返回</locator>
+
+		<locator type="id" timeOut="3" value="dji.pilot:id/mine_settings_cellular_switch">使用手机流量上传文件</locator>
+		<locator type="id" timeOut="3" value="dji.pilot:id/mine_settings_develop_switch">开启USB调试</locator>
+		<locator type="id" timeOut="3" value="dji.pilot:id/mine_settings_reset_guide_button">重置新手指引</locator>
+		<locator type="id" timeOut="3" value="dji.pilot:id/mine_settings_clean_cache_button">清除数据缓存</locator>					
+		<locator type="id" timeOut="3" value="dji.pilot:id/mine_language_change">多语言</locator>
+		<locator type="id" timeOut="3" value="dji.pilot:id/mine_settings_privacy_button">隐私设置</locator>
+		<locator type="id" timeOut="3" value="dji.pilot:id/mine_settings_rate_app_button">给我们评分</locator>			
+		<locator type="id" timeOut="3" value="dji.pilot:id/mine_settings_sign_out_button">退出DJI账号</locator>
+		
+		<locator type="id" timeOut="3" value="android:id/button2">取消</locator>
+		<locator type="id" timeOut="3" value="android:id/button1">确定</locator>
+																
+		<locator type="id" timeOut="3" value="dji.pilot:id/mine_user_protocol">DJIGO用户协议</locator>				
+	</page>
+
+</map>

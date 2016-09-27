@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="40.074" tests="2" errors="0" skipped="0" failures="1">
+<testsuite name="TestSuite" time="21.327" tests="5" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib"/>
@@ -24,7 +24,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="os.name" value="Mac OS X"/>
-    <property name="classworlds.conf" value="/Users/boolin/develop/workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf7585283831339519353.tmp"/>
+    <property name="classworlds.conf" value="/Users/boolin/develop/workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf49308484562837189.tmp"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="java.library.path" value="/Users/boolin/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -57,29 +57,9 @@
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="loginByButton" classname="com.dji.cases.LoginTest" time="23.725">
-    <failure message="expected:&lt;&quot;Charlie[.]Chen&quot;&gt; but was:&lt;&quot;Charlie[]Chen&quot;&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<"Charlie[.]Chen"> but was:<"Charlie[]Chen">
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at com.dji.cases.LoginTest.loginByButton(LoginTest.java:38)
-]]></failure>
-    <system-out><![CDATA[2016-09-27 16:02:07 [main] INFO  com.dji.utils.TestNGListener - Test Start
-2016-09-27 16:02:18 [main] INFO  com.dji.utils.XmlUtils - pageName is:menuPage
-2016-09-27 16:02:20 [main] INFO  com.dji.object.BasePage - click: 我
-2016-09-27 16:02:20 [main] INFO  com.dji.utils.XmlUtils - pageName is:minePage
-2016-09-27 16:02:22 [main] INFO  com.dji.object.BasePage - click: 设置
-2016-09-27 16:02:22 [main] INFO  com.dji.utils.XmlUtils - pageName is:settingPage
-2016-09-27 16:02:23 [main] INFO  com.dji.object.BasePage - click: 退出DJI账号
-2016-09-27 16:02:27 [main] INFO  com.dji.object.BasePage - click: 确定
-2016-09-27 16:02:27 [main] INFO  com.dji.utils.XmlUtils - pageName is:minePageNo
-2016-09-27 16:02:27 [main] INFO  com.dji.object.BasePage - click: 登录
-2016-09-27 16:02:27 [main] INFO  com.dji.utils.XmlUtils - pageName is:loginPage
-2016-09-27 16:02:33 [main] INFO  com.dji.object.BasePage - type value is:  charlie.chen@dji.com
-2016-09-27 16:02:38 [main] INFO  com.dji.object.BasePage - type value is:  123456
-2016-09-27 16:02:40 [main] INFO  com.dji.object.BasePage - click: 登录
-2016-09-27 16:02:40 [main] INFO  com.dji.utils.XmlUtils - pageName is:minePage
-]]></system-out>
-  </testcase>
-  <testcase name="loginByStore" classname="com.dji.cases.LoginTest" time="16.349"/>
+  <testcase name="loginByButton" classname="com.dji.cases.LoginTest" time="21.326"/>
+  <testcase name="f" classname="com.dji.cases.SignUpTest" time="0.001"/>
+  <testcase name="f" classname="com.dji.cases.ForgetPasswordTest" time="0"/>
+  <testcase name="sharingByEdit" classname="com.dji.cases.SharingTest" time="0"/>
+  <testcase name="sharingBySkypixel" classname="com.dji.cases.SharingTest" time="0"/>
 </testsuite>

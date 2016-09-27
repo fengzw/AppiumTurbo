@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="分享"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.000">
+  <properties />
+  
+  
+            <testcase name="sharingBySkypixel" time="0.000" classname="com.dji.cases.SharingTest" />
+                <testcase name="sharingByEdit" time="0.000" classname="com.dji.cases.SharingTest" />
+      
+</testsuite>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="登录"
+<testsuite name="注册"
            tests="1"
            failures="0"
            errors="0"
            skipped="0"
-           time="21.326">
+           time="0.000">
   <properties />
   
   
-            <testcase name="loginByButton" time="21.326" classname="com.dji.cases.LoginTest" />
+            <testcase name="f" time="0.000" classname="com.dji.cases.SignUpTest" />
       
 </testsuite>
