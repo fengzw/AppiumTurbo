@@ -9,12 +9,12 @@
 	<parameter name="userName" value="charlie.chen@dji.com" />
 	<parameter name="pwd" value="123456" />
 
-	<test name="LoginTest" preserve-order="true">
+	<test name="登录" preserve-order="true">
 		<classes>
-			<class name="com.dji.cases.LoginTest" >
+			<class name="com.dji.cases.LoginTest">
 				<methods>
 					<include name="loginByButton" />
-					<include name="loginByStore" />
+					<exclude name="loginByStore" />
 					<exclude name="loginByAcademy" />
 					<exclude name="loginByFly" />
 
@@ -27,9 +27,33 @@
 		</classes>
 	</test>
 
-	<listeners>
-    	 <listener class-name="com.dji.utils.TestNGListener" />
-	</listeners>
+	<test name="注册" preserve-order="true">
+		<classes>
+			<class name="com.dji.cases.SignUpTest" />
+		</classes>
+	</test>
 
+	<test name="忘记密码" preserve-order="true">
+		<classes>
+			<class name="com.dji.cases.ForgetPasswordTest" />
+		</classes>
+	</test>
+
+
+	<test name="分享" preserve-order="true">
+		<classes>
+			<class name="com.dji.cases.SharingTest" >
+				<methods>
+					<include name="sharingByEdit" />
+					<include name="sharingBySkypixel" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+
+	<listeners>
+		<listener class-name="com.dji.utils.TestNGListener" />
+	</listeners>
 
 </suite>

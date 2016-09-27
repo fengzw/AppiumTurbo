@@ -4,9 +4,11 @@ import java.util.concurrent.TimeUnit;
 
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterSuite;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
@@ -35,7 +37,7 @@ public class LoginTest {
 		// 断言验证用户名是否正确
 		//Assert.assertEquals(new BasePage(ad, "minePage").findElement("用户名").getText(), "charlie.chen");   //testNG自带的断言机制
 		//采用AssertJ断言机制
-		assertThat(new BasePage(ad, "minePage").findElement("用户名").getText()).isEqualTo("Charlie.Chen");
+		assertThat(new BasePage(ad, "minePage").findElement("用户名").getText()).isEqualTo("CharlieChen");
 	}
 
 	@Parameters({ "userName", "pwd" })
@@ -90,8 +92,7 @@ public class LoginTest {
 
 	@BeforeMethod
 	public void beforeMethod() throws Exception {
-		login = new Login(ad);
-		TestNGListener.setDriver(ad);
+
 	}
 
 	@AfterMethod
@@ -101,9 +102,8 @@ public class LoginTest {
 
 	@BeforeClass
 	public void beforeClass() {
-
-		ad = DriverFactory.createAndroidDriver("PBV0216615001449", "4723", "dji.pilot", "dji.pilot.main.activity.DJIAoaActivity"); 
-		ad.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		login = new Login(ad);
+		TestNGListener.setDriver(ad);
 	}
 
 	@AfterClass
@@ -112,12 +112,23 @@ public class LoginTest {
 
 	}
 
-	@BeforeTest()
+	@BeforeTest
 	public void beforeTest() throws Exception {
 	}
 
 	@AfterTest
 	public void afterTest() {
+	}
+	
+	@BeforeSuite
+	public void beforeSuit() throws Exception {
+		ad = DriverFactory.createAndroidDriver("PBV0216615001449", "4723", "dji.pilot", "dji.pilot.main.activity.DJIAoaActivity"); 
+		ad.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+	}
+	
+	@AfterSuite
+	public void afterSuit() throws Exception {
+		
 	}
 
 }
