@@ -17,7 +17,6 @@ import static org.assertj.core.api.Java6Assertions.*;
 import com.dji.action.Login;
 import com.dji.object.BasePage;
 import com.dji.utils.DriverFactory;
-import com.dji.utils.TestNGListener;
 
 import io.appium.java_client.android.AndroidDriver;
 
@@ -92,7 +91,7 @@ public class LoginTest {
 	@BeforeMethod
 	public void beforeMethod() throws Exception {
 		login = new Login(ad);
-		TestNGListener.setDriver(ad);
+		//TestNGListener.setDriver(ad);
 	}
 
 	@AfterMethod

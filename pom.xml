@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.dji</groupId>
-	<artifactId>djigo-master</artifactId>
+	<artifactId>djigo-auto-test</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
 	<name>dijgo-master</name>
