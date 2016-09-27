@@ -21,7 +21,7 @@ import com.dji.utils.TestNGListener;
 
 import io.appium.java_client.android.AndroidDriver;
 
-@Listeners({ TestNGListener.class })
+//@Listeners({ TestNGListener.class })
 public class LoginTest {
 
 	private AndroidDriver<?> ad = null;
