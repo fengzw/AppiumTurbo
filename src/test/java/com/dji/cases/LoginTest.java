@@ -8,7 +8,6 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Listeners;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
@@ -17,6 +16,7 @@ import static org.assertj.core.api.Java6Assertions.*;
 import com.dji.action.Login;
 import com.dji.object.BasePage;
 import com.dji.utils.DriverFactory;
+import com.dji.utils.TestNGListener;
 
 import io.appium.java_client.android.AndroidDriver;
 
@@ -35,7 +35,7 @@ public class LoginTest {
 		// 断言验证用户名是否正确
 		//Assert.assertEquals(new BasePage(ad, "minePage").findElement("用户名").getText(), "charlie.chen");   //testNG自带的断言机制
 		//采用AssertJ断言机制
-		//assertThat(new BasePage(ad, "minePage").findElement("用户名").getText()).isEqualTo("CharlieChen");
+		assertThat(new BasePage(ad, "minePage").findElement("用户名").getText()).isEqualTo("CharlieChen");
 	}
 
 	@Parameters({ "userName", "pwd" })
@@ -91,7 +91,7 @@ public class LoginTest {
 	@BeforeMethod
 	public void beforeMethod() throws Exception {
 		login = new Login(ad);
-		//TestNGListener.setDriver(ad);
+		TestNGListener.setDriver(ad);
 	}
 
 	@AfterMethod

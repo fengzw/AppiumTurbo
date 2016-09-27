@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="appiumPRO" parallel="false" preserve-order="true">
+<suite name="djigo-auto-test" parallel="false" preserve-order="true">
 
 	<parameter name="port" value="4723" />
 	<parameter name="udid" value="PBV0216615001449" />
@@ -26,5 +26,10 @@
 			</class>
 		</classes>
 	</test>
+
+	<listeners>
+    	 <listener class-name="com.dji.utils.TestNGListener" />
+	</listeners>
+
 
 </suite>
